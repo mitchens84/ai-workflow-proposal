@@ -1,0 +1,32 @@
+{
+  "name": "ai-workflow-proposal",
+  "version": "1.0.0",
+  "homepage": "https://mitchens84.github.io/ai-workflow-proposal",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "lucide-react": "^0.503.0",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.17",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5.8.3"
+  }
+}
